@@ -1,0 +1,13 @@
+@media (min-width: 575px)
+{
+    .mobile{
+        display: none !important;
+    }
+    .mobile_logo{
+        text-align: center !important;
+    }
+}
+
+.bg-black{
+    background-color: black;
+}
