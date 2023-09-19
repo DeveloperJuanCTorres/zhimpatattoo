@@ -17,7 +17,7 @@
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
     <!--CSS-->
-    @stack('css')
+    
     
     <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}?v=<?php echo $version ?>">
     <link rel="stylesheet" href="{{asset('assets/css/owl.carousel.min.css')}}?v=<?php echo $version ?>">
@@ -33,6 +33,8 @@
     <link rel="stylesheet" href="{{asset('assets/css/nice-select.css')}}?v=<?php echo $version ?>">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}?v=<?php echo $version ?>">
     <link rel="stylesheet" href="{{asset('assets/css/propios.css')}}?v=<?php echo $version ?>">
+
+    @stack('css')
 
     <!-- Scripts -->
     <!-- vite(['resources/sass/app.scss', 'resources/js/app.js']) -->

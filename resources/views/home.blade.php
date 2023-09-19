@@ -9,15 +9,15 @@
                 <button type="button" data-target="#myCarousel" data-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-target="#myCarousel" data-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src="{{asset('assets/img/gallery/section_bg01.png')}}" class="d-block w-100" alt="...">
+            <div class="carousel-inner h-700">
+                <div class="carousel-item active img-banner">
+                    <img src="{{asset('assets/img/gallery/banner1.jpg')}}" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
-                <img src="{{asset('assets/img/gallery/section_bg02.png')}}" class="d-block w-100" alt="...">
+                <div class="carousel-item img-banner">
+                    <img src="{{asset('assets/img/gallery/banner2.jpg')}}" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
-                <img src="{{asset('assets/img/gallery/section_bg03.png')}}" class="d-block w-100" alt="...">
+                <div class="carousel-item img-banner">
+                    <img src="{{asset('assets/img/gallery/banner3.jpg')}}" class="d-block w-100" alt="...">
                 </div>
             </div>
             <!-- <button class="carousel-control-prev" type="button" data-target="#myCarousel" data-slide="prev">
@@ -30,62 +30,270 @@
             </button> -->
         </div>
         
-                
+        <section class="imagen-light" style="z-index: 9 !important;">
+            <i class="fas fa-times close"></i>
+            <img src="./img/img-3.jpg" alt="" class="agregar-imagen">
+        </section>
+            </form>   
         <!--? Team Start -->
-        <div class="team-area pb-180 bg-black">
+        <div class="team-area pb-180 bg-black section-padding">
             <div class="container">
                 <!-- Section Tittle -->
                 <div class="row justify-content-center">
                     <div class="col-xl-8 col-lg-8 col-md-11 col-sm-11">
                         <div class="section-tittle text-center mb-100">
                             <span>Professional Teams</span>
-                            <h2>Our award winner hair cut exparts for you</h2>
+                            <h2>Nuestros Artistas</h2>
                         </div>
                     </div>
                 </div>
-                <div class="row team-active dot-style">
+                <div class="row dot-style justify-content-center">
                     <!-- single Tem -->
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                    <div class="col-xl-3 col-lg-3 p-4">
                         <div class="single-team mb-80 text-center">
                             <div class="team-img">
-                                <img src="assets/img/gallery/team1.png" alt="">
+                                <img src="assets/img/gallery/zhimpa.jpg" alt="">
                             </div>
                             <div class="team-caption">
-                                <span>Master Barber</span>
-                                <h3><a href="#">Guy C. Pulido bks</a></h3>
+                                <span>Master Tattoo</span>
+                                <h3><a href="#">Zhimpa Moreno</a></h3>
+                            </div>
+                        </div>
+                        <div class="owl-carousel owl-theme p-4">
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                    <div class="col-xl-3 col-lg-3 p-4">
                         <div class="single-team mb-80 text-center">
                             <div class="team-img">
-                                <img src="assets/img/gallery/team2.png" alt="">
+                                <img src="assets/img/gallery/darwin.jpg" alt="">
                             </div>
                             <div class="team-caption">
-                                <span>Color Expart</span>
-                                <h3><a href="#">Steve L. Nolan</a></h3>
+                                <span>Master Tattoo</span>
+                                <h3><a href="#">Darwin Enriquez</a></h3>
+                            </div>
+                        </div>
+                        <div class="owl-carousel owl-theme p-4">
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                    <div class="col-xl-3 col-lg-3 p-4">
                         <div class="single-team mb-80 text-center">
                             <div class="team-img">
-                                <img src="assets/img/gallery/team3.png" alt="">
+                                <img src="assets/img/gallery/zhimpa.jpg" alt="">
                             </div>
                             <div class="team-caption">
-                                <span>Master Barber</span>
-                                <h3><a href="#">Edgar P. Mathis</a></h3>
+                                <span>Master Tattoo</span>
+                                <h3><a href="#">Zhimpa Moreno</a></h3>
+                            </div>
+                        </div>
+                        <div class="owl-carousel owl-theme p-4">
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                    <div class="col-xl-3 col-lg-3 p-4">
                         <div class="single-team mb-80 text-center">
                             <div class="team-img">
-                                <img src="assets/img/gallery/team2.png" alt="">
+                                <img src="assets/img/gallery/darwin.jpg" alt="">
                             </div>
                             <div class="team-caption">
-                                <span>Master Barber</span>
-                                <h3><a href="#">Edgar P. Mathis</a></h3>
+                                <span>Master Tattoo</span>
+                                <h3><a href="#">Darwin Enriquez</a></h3>
+                            </div>
+                        </div>
+                        <div class="owl-carousel owl-theme p-4">
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 p-4">
+                        <div class="single-team mb-80 text-center">
+                            <div class="team-img">
+                                <img src="assets/img/gallery/zhimpa.jpg" alt="">
+                            </div>
+                            <div class="team-caption">
+                                <span>Master Tattoo</span>
+                                <h3><a href="#">Zhimpa Moreno</a></h3>
+                            </div>
+                        </div>
+                        <div class="owl-carousel owl-theme p-4">
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 p-4">
+                        <div class="single-team mb-80 text-center">
+                            <div class="team-img">
+                                <img src="assets/img/gallery/darwin.jpg" alt="">
+                            </div>
+                            <div class="team-caption">
+                                <span>Master Tattoo</span>
+                                <h3><a href="#">Darwin Enriquez</a></h3>
+                            </div>
+                        </div>
+                        <div class="owl-carousel owl-theme p-4">
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 p-4">
+                        <div class="single-team mb-80 text-center">
+                            <div class="team-img">
+                                <img src="assets/img/gallery/zhimpa.jpg" alt="">
+                            </div>
+                            <div class="team-caption">
+                                <span>Master Tattoo</span>
+                                <h3><a href="#">Zhimpa Moreno</a></h3>
+                            </div>
+                        </div>
+                        <div class="owl-carousel owl-theme p-4">
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 p-4">
+                        <div class="single-team mb-80 text-center">
+                            <div class="team-img">
+                                <img src="assets/img/gallery/darwin.jpg" alt="">
+                            </div>
+                            <div class="team-caption">
+                                <span>Master Tattoo</span>
+                                <h3><a href="#">Darwin Enriquez</a></h3>
+                            </div>
+                        </div>
+                        <div class="owl-carousel owl-theme p-4">
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -93,87 +301,53 @@
             </div>
         </div>
         <!-- Team End -->
-        <!-- Best Pricing Area Start -->
-        <div class="best-pricing section-padding2 position-relative bg-black">
-            <div class="container">
-                <div class="row justify-content-end">
-                    <div class="col-xl-7 col-lg-7">
-                        <div class="section-tittle mb-50">
-                            <span>Our Best Pricing</span>
-                            <h2>We provide best price<br> in the city!</h2>
-                        </div>
-                        <!-- Pricing  -->
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="pricing-list">
-                                    <ul>
-                                        <li>Styling. . . . . . . . . . . . . . . . . . . . . . . . . . . . <span>$25</span></li>
-                                        <li>Styling + Color. . . . . . . . . . . . . . . . . . . <span>$65</span></li>
-                                        <li>Styling + Tint. . . . . . . . . . . . . . . . . . . . . .<span>$65</span></li>
-                                        <li>  Semi-permanent wave. . . . . . . . . . . . .<span>$65</span></li>
-                                        <li> Cut + Styling. . . . . . . . . . . . . . . . . . . . . .<span>$63</span></li>
-                                        <li> Cut + Styling + Color. . . . . . . . . . . . . <span>$100</span></li>
-                                        <li> Cut + Styling + Tint. . . . . . . . . . . . . . . .<span>$100</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="pricing-list">
-                                    <ul>
-                                        <li>Cut. . . . . . . . . . . . . . . . . . . . . . . . . . . . .<span>$25</span></li>
-                                        <li>Shave. . . . . . . . . . . . . . . . . . . . . . . . . . <span>$65</span></li>
-                                        <li>Beard trim. . . . . . . . . . . . . . . . . . . . . .  <span>$65</span></li>
-                                        <li>Cut + beard trim. . . . . . . . . . . . . . . . .  <span>$65</span></li>
-                                        <li>Cut + shave. . . . . . . . . . . . . . . . . . . . . . .<span>$63</span></li>
-                                        <li>Clean up. . . . . . . . . . . . . . . . . . . . . . . . .<span>$100</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- pricing img -->
-            <div class="pricing-img">
-                <img class="pricing-img1" src="assets/img/gallery/pricing1.png" alt="">
-                <img class="pricing-img2" src="assets/img/gallery/pricing2.png" alt="">
-            </div>
-        </div>
-        <!-- Best Pricing Area End -->
+        
         <!--? Gallery Area Start -->
-        <div class="gallery-area section-padding30 bg-black">
+        <div class="gallery-area bg-black">
             <div class="container">
                 <!-- Section Tittle -->
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-7 col-md-9 col-sm-10">
                         <div class="section-tittle text-center mb-100">
-                            <span>our image gellary</span>
-                            <h2>some images from our barber shop</h2>
+                            <span>Nuestra galería de imagenes</span>
+                            <h2>Algunas imágenes de nuestro Tattoo</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="box snake mb-30">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery1.png);"></div>
+                            <div class="gallery-img " style="background-image: url(assets/img/gallery/galle1.jpg);"></div>
                             <div class="overlay"></div>
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-6 col-sm-6">
                         <div class="box snake mb-30">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery2.png);"></div>
+                            <div class="gallery-img " style="background-image: url(assets/img/gallery/galle2.jpg);"></div>
                             <div class="overlay"></div>
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-6 col-sm-6">
                         <div class="box snake mb-30">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery3.png);"></div>
+                            <div class="gallery-img " style="background-image: url(assets/img/gallery/galle3.jpg);"></div>
                             <div class="overlay"></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="box snake mb-30">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery4.png);"></div>
+                            <div class="gallery-img " style="background-image: url(assets/img/gallery/galle4.jpg);"></div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="box snake mb-30">
+                            <div class="gallery-img " style="background-image: url(assets/img/gallery/galle5.jpeg);"></div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="box snake mb-30">
+                            <div class="gallery-img " style="background-image: url(assets/img/gallery/galle6.jpg);"></div>
                             <div class="overlay"></div>
                         </div>
                     </div>
@@ -182,7 +356,7 @@
         </div>
         <!-- Gallery Area End -->
         <!-- Cut Details Start -->
-        <div class="cut-details section-bg section-padding2 bg-black" data-background="assets/img/gallery/section_bg02.png">
+        <div class="cut-details section-bg section-padding2 bg-black" data-background="assets/img/gallery/banner10.jpg">
            <div class="container">
             <div class="cut-active dot-style">
                 <div class="single-cut">
@@ -221,70 +395,65 @@
             </div>
            </div>
         </div>
-        <!-- Cut Details End -->
-        <!--? Blog Area Start -->
-        <section class="home-blog-area section-padding30 bg-black">
-            <div class="container">
-                <!-- Section Tittle -->
-                <div class="row justify-content-center">
-                    <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
-                        <div class="section-tittle text-center mb-90">
-                            <span>our recent news</span>
-                            <h2>Hipos and tricks from recent blog</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="home-blog-single mb-30">
-                            <div class="blog-img-cap">
-                                <div class="blog-img">
-                                    <img src="assets/img/gallery/home-blog1.png" alt="">
-                                    <!-- Blog date -->
-                                    <div class="blog-date text-center">
-                                        <span>24</span>
-                                        <p>Now</p>
-                                    </div>
-                                </div>
-                                <div class="blog-cap">
-                                    <p>|   Physics</p>
-                                    <h3><a href="blog_details.html">Footprints in Time is perfect House in Kurashiki</a></h3>
-                                    <a href="blog_details.html" class="more-btn">became a member »</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="home-blog-single mb-30">
-                            <div class="blog-img-cap">
-                                <div class="blog-img">
-                                    <img src="assets/img/gallery/home-blog2.png" alt="">
-                                    <!-- Blog date -->
-                                    <div class="blog-date text-center">
-                                        <span>24</span>
-                                        <p>Now</p>
-                                    </div>
-                                </div>
-                                <div class="blog-cap">
-                                    <p>|   Physics</p>
-                                    <h3><a href="blog_details.html">Footprints in Time is perfect House in Kurashiki</a></h3>
-                                    <a href="blog_details.html" class="more-btn">became a member »</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Blog Area End -->
+        
 @endsection
-
+@push('css')
+<link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
+@endpush
 @push('javascript')
+<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
 <script>
 var myCarousel = document.querySelector('#myCarousel')
 var carousel = new bootstrap.Carousel(myCarousel, {
   interval: 5000,
   wrap: true
 })
+
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:3,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
+
+//IMAGEN TOTAL
+const imagenes = document.querySelectorAll('.img-galeria');
+const imagenesLight = document.querySelector('.agregar-imagen');
+const contenedorLight = document.querySelector('.imagen-light');
+
+imagenes.forEach(imagen =>{
+    imagen.addEventListener('click', ()=>{
+        aparecerImagen(imagen.getAttribute('src'))
+    
+    })
+})
+
+contenedorLight.addEventListener('click', (e) =>{
+    if(e.target !== imagenesLight){
+        contenedorLight.classList.remove('show');
+        imagenesLight.classList.remove('showImage'); 
+    }
+})
+
+const aparecerImagen = (imagen) =>{
+    imagenesLight.src = imagen;
+    contenedorLight.classList.add('show');
+    imagenesLight.classList.add('showImage');
+}
+//FIN IMAGEN TOTAL
+
 </script>
 @endpush
