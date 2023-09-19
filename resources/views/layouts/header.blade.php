@@ -10,12 +10,12 @@
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li class="active"><a href="index.html">Inicio</a></li>
-                                            <li><a href="about.html">Studio</a></li>
-                                            <li><a href="services.html">Artistas</a></li>
-                                            <li class="mobile"><a href="blog.html">Proyectos</a></li>
-                                            <li class="mobile"><a href="blog_details.html">Pearcing</a></li>
-                                            <li class="mobile"><a href="elements.html">Cotizar</a></li>
+                                            <li class="active"><a href="/">Inicio</a></li>
+                                            <li><a href="#">Studio</a></li>
+                                            <li><a href="#">Artistas</a></li>
+                                            <li class="mobile"><a href="#">Proyectos</a></li>
+                                            <li class="mobile"><a href="#">Pearcing</a></li>
+                                            <li class="mobile"><a href="#">Cotizar</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -33,9 +33,9 @@
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="portfolio.html">Proyectos</a></li>
-                                            <li><a href="blog.html">Pearcing</a></li>
-                                            <li><a href="contact.html">Cotizar</a></li>
+                                            <li><a href="#">Proyectos</a></li>
+                                            <li><a href="#">Pearcing</a></li>
+                                            <li><a href="#">Cotizar</a></li>
                                         </ul>
                                     </nav>
                                 </div>
