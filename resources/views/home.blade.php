@@ -4,7 +4,7 @@
 
         <!--? slider Area Start-->
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
+            <div class="carousel-indicators" style="display: none;">
                 <button type="button" data-target="#myCarousel" data-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-target="#myCarousel" data-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-target="#myCarousel" data-slide-to="2" aria-label="Slide 3"></button>
