@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+<a href="/cotizar" class="btn-flotante">Cotizar</a>
 
         <!--? slider Area Start-->
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">

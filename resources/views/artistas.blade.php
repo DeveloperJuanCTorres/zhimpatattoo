@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+<a href="/cotizar" class="btn-flotante">Cotizar</a>
 
 <div class="slider-area2">
     <div class="slider-height2 d-flex align-items-center">
