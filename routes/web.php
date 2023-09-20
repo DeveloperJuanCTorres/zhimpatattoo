@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +14,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+// Route::get('/', function () {
+//     return view('home');
+// });
+
+// Route::get('/cotizar', function () {
+//     return view('cotizar');
+// });
+Route::get('/',[AdminController::class,'home']);
+Route::get('/cotizar',[AdminController::class,'cotizar']);
+Route::get('/studio',[AdminController::class,'studio']);
+Route::get('/artistas',[AdminController::class,'artistas']);
 
 
 Route::group(['prefix' => 'admin'], function () {
