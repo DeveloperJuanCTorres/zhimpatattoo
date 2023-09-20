@@ -24,7 +24,7 @@
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2 col-md-1 mobile_logo">
                             <div class="logo">
-                                <a href="/"><img src="assets/img/logo/logo-zhimpa.png" width="90%" alt=""></a>
+                                <a href="/"><img src="{{asset('assets/img/logo/logo-zhimpa.png')}}" width="90%" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-5 col-md-5">

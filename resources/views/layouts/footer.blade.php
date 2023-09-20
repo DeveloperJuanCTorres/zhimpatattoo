@@ -1,6 +1,6 @@
 <footer>
         <!--? Footer Start-->
-        <div class="footer-area section-bg" data-background="assets/img/gallery/footer_bg.png">
+        <div class="footer-area section-bg" data-background="{{asset('assets/img/gallery/footer_bg.png')}}">
             <div class="container">
                 <div class="footer-top footer-padding">
                     <div class="row d-flex justify-content-between">
@@ -8,7 +8,7 @@
                             <div class="single-footer-caption mb-50">
                                 <!-- logo -->
                                 <div class="footer-logo">
-                                    <a href="/"><img src="assets/img/logo/logo-zhimpa.png" width="200" alt=""></a>
+                                    <a href="/"><img src="{{asset('assets/img/logo/logo-zhimpa.png')}}" width="200" alt=""></a>
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
