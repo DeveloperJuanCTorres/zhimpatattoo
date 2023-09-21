@@ -50,18 +50,19 @@
         </div>
         <div class="row dot-style justify-content-center">
             <!-- single Tem -->
-            <div class="col-xl-3 col-lg-3 p-4">
+            @foraeach($artistas as $item)
+            <div class="col-xl-3 col-lg-3 p-4">                
                 <a href="{{route('artistaid','zhimpa tattoo')}}">
                     <div class="single-team mb-80 text-center">
                         <div class="team-img">
-                            <img src="assets/img/gallery/zhimpa.jpg" alt="">
+                            <img src="https://zhimpatattoosperu.com/storage/{{$item->image}}" alt="">
                         </div>
                         <div class="team-caption">
                             <span>Master Tattoo</span>
-                            <h3><a href="#">Zhimpa Moreno</a></h3>
+                            <h3><a href="#">{{$item->name}}</a></h3>
                         </div>
                     </div>
-                </a>
+                </a>                
                 <div class="owl-carousel owl-theme p-4">
                     <div class="item">
                         <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
@@ -81,9 +82,10 @@
                     <div class="item">
                         <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
                     </div>
-                </div>
+                </div>                
             </div>
-            <div class="col-xl-3 col-lg-3 p-4">
+            @endforeach
+            <!-- <div class="col-xl-3 col-lg-3 p-4">
                 <div class="single-team mb-80 text-center">
                     <div class="team-img">
                         <img src="assets/img/gallery/darwin.jpg" alt="">
@@ -299,7 +301,7 @@
                         <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

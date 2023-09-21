@@ -10,9 +10,9 @@ class AdminController extends Controller
     public function home()
     {
         $artistas = Artist::all();
-        dd($artistas);
+        //dd($artistas);
         $nav = 'Inicio';
-        return view('home',compact('nav'));
+        return view('home',compact('nav','artistas'));
     }
 
     public function cotizar()
