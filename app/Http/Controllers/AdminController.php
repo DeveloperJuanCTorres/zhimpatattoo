@@ -11,7 +11,7 @@ class AdminController extends Controller
     {
         $artistas = Artist::all();
         $artista = $artistas->first();
-        dd($artista);
+        dd($artista->artes);
         $nav = 'Inicio';
         return view('home',compact('nav','artistas'));
     }
