@@ -75,38 +75,32 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="box snake mb-30">
-                    <div class="gallery-img img-galeria" style="background-image: url(assets/img/gallery/galle1.jpg);"></div>
-                    <div class="overlay"></div>
+                    <img class="img-galeria" src="{{asset('assets/img/gallery/galle1.jpg')}}" alt="">
                 </div>
             </div>
             <div class="col-lg-8 col-md-6 col-sm-6">
                 <div class="box snake mb-30">
-                    <div class="gallery-img img-galeria" style="background-image: url(assets/img/gallery/galle2.jpg);"></div>
-                    <div class="overlay"></div>
+                    <img class="img-galeria" src="{{asset('assets/img/gallery/galle1.jpg')}}" alt="">
                 </div>
             </div>
             <div class="col-lg-8 col-md-6 col-sm-6">
                 <div class="box snake mb-30">
-                    <div class="gallery-img img-galeria" style="background-image: url(assets/img/gallery/galle3.jpg);"></div>
-                    <div class="overlay"></div>
+                    <img class="img-galeria" src="{{asset('assets/img/gallery/galle1.jpg')}}" alt="">
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="box snake mb-30">
-                    <div class="gallery-img img-galeria" style="background-image: url(assets/img/gallery/galle4.jpg);"></div>
-                    <div class="overlay"></div>
+                    <img class="img-galeria" src="{{asset('assets/img/gallery/galle1.jpg')}}" alt="">
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="box snake mb-30">
-                    <div class="gallery-img img-galeria" style="background-image: url(assets/img/gallery/galle5.jpeg);"></div>
-                    <div class="overlay"></div>
+                    <img class="img-galeria" src="{{asset('assets/img/gallery/galle1.jpg')}}" alt="">
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="box snake mb-30">
-                    <div class="gallery-img img-galeria" style="background-image: url(assets/img/gallery/galle6.jpg);"></div>
-                    <div class="overlay"></div>
+                    <img class="img-galeria" src="{{asset('assets/img/gallery/galle1.jpg')}}" alt="">
                 </div>
             </div>
         </div>
