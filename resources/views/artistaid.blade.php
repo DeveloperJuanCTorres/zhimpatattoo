@@ -31,7 +31,7 @@
                     </div>
                     <p class="mb-30 pera-bottom">TechnologyCix presents your services with flexible, convenient and cdpoe layouts. You can select your favorite layouts & elements for cular ts with unlimited ustomization possibilities. Pixel-perfreplication of the designers is intended.</p>
                     <p class="pera-top mb-50">TechnologyCix presents your services with flexible, convefnient and ent anipurpose layouts. You can select your favorite.</p>
-                    <img src="assets/img/gallery/signature.png" alt="">
+                    <img src="{{asset('assets/img/gallery/signature.png')}}" alt="">
                 </div>                
             </div>
             <div class="col-lg-6 col-md-11">
