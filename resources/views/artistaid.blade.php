@@ -51,7 +51,7 @@
                             @endphp
                             @foreach($artes as $arte)
                             <div class="col-lg-3 col-md-3 col-sm-3">
-                                <img class="img-galeria" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">
+                                <img class="img-galeria" style="width: 100%;" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">
                                 
                                 <!-- <div class="box snake mb-30">
                                     <div class="gallery-img-id" style="background-image: url(https://zhimpatattoosperu.com/storage/{{$arte}});"></div>
