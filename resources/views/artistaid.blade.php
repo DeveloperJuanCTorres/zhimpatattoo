@@ -41,28 +41,15 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
-                <!--? Gallery Area Start -->
-                <div class="gallery-area bg-black">
-                    <div class="container">
-                        <!-- Section Tittle -->
-                        <div class="row">
-                            @php
-                                $artes = json_decode($artist->artes);
-                            @endphp
-                            @foreach($artes as $arte)
-                            <div class="col-lg-3 col-md-3 col-sm-3">
-                                <img class="img-galeria" style="width: 100%;" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">
-                                
-                                <!-- <div class="box snake mb-30">
-                                    <div class="gallery-img-id" style="background-image: url(https://zhimpatattoosperu.com/storage/{{$arte}});"></div>
-                                    <div class="overlay"></div>
-                                </div> -->
-                            </div>
-                            @endforeach                            
-                        </div>
-                    </div>
+                @php
+                    $artes = json_decode($artist->artes);
+                @endphp
+                @foreach($artes as $arte)
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <img class="img-galeria" style="width: 100%;" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">
+            
                 </div>
-                <!-- Gallery Area End -->
+                @endforeach  
             </div>
         </div>
     </div>
