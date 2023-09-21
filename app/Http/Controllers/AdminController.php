@@ -11,7 +11,7 @@ class AdminController extends Controller
     {
         $artistas = Artist::all();
         //$artes[] = json_encode($artistas->artes);
-        dd($artistas->artes);
+        dd($artistas);
         $nav = 'Inicio';
         return view('home',compact('nav','artistas'));
     }
