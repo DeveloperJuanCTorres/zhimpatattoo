@@ -17,7 +17,8 @@ class Artist extends Model
         'image',
         'slug',
         'status',
-        'artes'
+        'artes',
+        'title'
 
     ];
 

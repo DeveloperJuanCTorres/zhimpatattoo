@@ -27,11 +27,11 @@
                     <!-- Section Tittle -->
                     <div class="section-tittle section-tittle3 mb-35">
                         <span>Mi experiencia</span>
-                        <h2>12 Años de experiencia haciendo Tattoo!</h2>
+                        <h2>{{$artist->title}}</h2>
                     </div>
                     <p class="mb-30 pera-bottom">{{$artist->description}}</p>
                     <!-- <p class="pera-top mb-50">TechnologyCix presents your services with flexible, convefnient and ent anipurpose layouts. You can select your favorite.</p> -->
-                    <img src="{{asset('assets/img/gallery/signature.png')}}" alt="">
+                    <img src="https://zhimpatattoosperu.com/storage/{{$artist->signature}}" alt="">
                 </div>                
             </div>
             <div class="col-lg-6 col-md-11">
