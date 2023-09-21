@@ -62,12 +62,15 @@
                             <h3><a href="#">{{$item->name}}</a></h3>
                         </div>
                     </div>
-                </a>                
+                </a>    
+                            
                 <div class="owl-carousel owl-theme p-4">
+                    @foreach($item->artes as $arte)
                     <div class="item">
-                        <img class="img-galeria" src="assets/img/gallery/tattoo1.jpg" alt="">
+                        <img class="img-galeria" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">
                     </div>
-                    <div class="item">
+                    @endforeach
+                    <!-- <div class="item">
                         <img class="img-galeria" src="assets/img/gallery/tattoo2.jpg" alt="">
                     </div>
                     <div class="item">
@@ -81,7 +84,7 @@
                     </div>
                     <div class="item">
                         <img class="img-galeria" src="assets/img/gallery/tattoo3.jpg" alt="">
-                    </div>
+                    </div> -->
                 </div>                
             </div>
             @endforeach
