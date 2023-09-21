@@ -47,7 +47,7 @@
                 @endphp
                 <div class="row">
                     @foreach($artes as $arte)
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <div class="item">
                             <img style="width: 100%;" class="img-galeria" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">
                         </div>
