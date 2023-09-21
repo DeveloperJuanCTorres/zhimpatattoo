@@ -56,11 +56,11 @@
                                 $artes = json_decode($artist->artes);
                             @endphp
                             @foreach($artes as $arte)
-                            <div class="col-lg-3 col-md-3 col-sm-3">
-                                <div class="box snake mb-30">
+                            <div class="col-lg-3 col-md-12">
+                                <!-- <div class="box snake mb-30"> -->
                                     <div class="img-galeria" style="background-image: url(https://zhimpatattoosperu.com/storage/{{$arte}});"></div>
                                     <!-- <div class="overlay"></div> -->
-                                </div>
+                                <!-- </div> -->
                             </div>
                             @endforeach                            
                         </div>
