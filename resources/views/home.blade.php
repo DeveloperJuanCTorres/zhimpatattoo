@@ -65,7 +65,10 @@
                 </a>    
                             
                 <div class="owl-carousel owl-theme p-4">
-                    @foreach($item->artes as $arte)
+                    @php
+                        $artes = json_decode($item->artes)
+                    @endphp
+                    @foreach($artes as $arte)
                     <div class="item">
                         <img class="img-galeria" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">
                     </div>
