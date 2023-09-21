@@ -46,9 +46,6 @@
                     $artes = json_decode($artist->artes);
                 @endphp
                 <div class="owl-carousel owl-theme p-4">
-                    @php
-                        $artes = json_decode($item->artes)
-                    @endphp
                     @foreach($artes as $arte)
                     <div class="item">
                         <img class="img-galeria" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">
