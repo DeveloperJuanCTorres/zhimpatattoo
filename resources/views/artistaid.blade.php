@@ -49,7 +49,7 @@
                     <div class="container">
                         <div class="row">
                             @foreach($artes as $arte)
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-3 col-md-12 col-sm-12">
                                 <div class="box snake mb-30">
                                     <img class="img-galeria" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">
                                 </div>
