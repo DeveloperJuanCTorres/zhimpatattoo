@@ -79,6 +79,7 @@
 
 @endsection
 
+@push('javascript')
 <script>
 
 //IMAGEN TOTAL
