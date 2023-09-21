@@ -45,15 +45,16 @@
                 @php
                     $artes = json_decode($artist->artes);
                 @endphp
-                <div class="row">
+                <div class="owl-carousel owl-theme p-4">
+                    @php
+                        $artes = json_decode($item->artes)
+                    @endphp
                     @foreach($artes as $arte)
-                    <div class="col-lg-4">
-                        <div class="item">
-                            <img style="width: 100%;" class="img-galeria" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">
-                        </div>
-                    </div> 
-                    @endforeach             
-                </div>
+                    <div class="item">
+                        <img class="img-galeria" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">
+                    </div>
+                    @endforeach
+                </div> 
             </div>
         </div>
     </div>
@@ -73,6 +74,21 @@
 
 @push('javascript')
 <script>
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:4,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
 
 //IMAGEN TOTAL
 const imagenes = document.querySelectorAll('.img-galeria');
