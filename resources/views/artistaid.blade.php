@@ -44,12 +44,13 @@
                 @php
                     $artes = json_decode($artist->artes);
                 @endphp
-                @foreach($artes as $arte)
-                <div class="col-lg-3">
-                    <img class="img-galeria" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">
-            
+                <div class="row">
+                    @foreach($artes as $arte)
+                    <div class="col-lg-3">                    
+                        <img class="img-galeria" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">            
+                    </div>
+                    @endforeach  
                 </div>
-                @endforeach  
             </div>
         </div>
     </div>
