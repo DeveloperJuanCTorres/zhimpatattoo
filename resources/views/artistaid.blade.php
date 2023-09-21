@@ -18,12 +18,6 @@
     </div>
 </div>
 <!-- Hero End -->
-
-<section class="imagen-light" style="z-index: 9 !important;">
-    <i class="fas fa-times close"></i>
-    <img src="./img/img-3.jpg" alt="" class="agregar-imagen">
-</section>
-
 <!--? About Area Start -->
 <section class="about-area section-padding position-relative bg-black">
     <div class="container">
@@ -56,11 +50,13 @@
                                 $artes = json_decode($artist->artes);
                             @endphp
                             @foreach($artes as $arte)
-                            <div class="col-lg-3 col-md-12">
-                                <!-- <div class="box snake mb-30"> -->
-                                    <div class="img-galeria" style="background-image: url(https://zhimpatattoosperu.com/storage/{{$arte}});"></div>
-                                    <!-- <div class="overlay"></div> -->
-                                <!-- </div> -->
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <img class="img-galeria" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">
+                                
+                                <!-- <div class="box snake mb-30">
+                                    <div class="gallery-img-id" style="background-image: url(https://zhimpatattoosperu.com/storage/{{$arte}});"></div>
+                                    <div class="overlay"></div>
+                                </div> -->
                             </div>
                             @endforeach                            
                         </div>
@@ -74,6 +70,11 @@
     <div class="about-shape">
         <img src="{{asset('assets/img/gallery/about-shape.png')}}" alt="">
     </div>
+</section>
+
+<section class="imagen-light" style="z-index: 9 !important;">
+    <i class="fas fa-times close"></i>
+    <img src="./img/img-3.jpg" alt="" class="agregar-imagen">
 </section>
 <!-- About-2 Area End -->
 

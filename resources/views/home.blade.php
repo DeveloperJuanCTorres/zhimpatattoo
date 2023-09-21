@@ -35,7 +35,7 @@
     <i class="fas fa-times close"></i>
     <img src="./img/img-3.jpg" alt="" class="agregar-imagen">
 </section>
-    </form>   
+    
 <!--? Team Start -->
 <div class="team-area pb-180 bg-black section-padding">
     <div class="container">
