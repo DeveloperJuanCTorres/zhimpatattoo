@@ -10,7 +10,7 @@ class AdminController extends Controller
     public function home()
     {
         $artistas = Artist::all();
-        $artes = json_encode($artistas->artes);
+        $artes[] = json_encode($artistas->artes);
         dd($artes);
         $nav = 'Inicio';
         return view('home',compact('nav','artistas'));
