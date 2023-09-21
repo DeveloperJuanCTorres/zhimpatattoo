@@ -49,7 +49,7 @@
                     @foreach($artes as $arte)
                     <div class="col-lg-3">
                         <div class="item">
-                            <img class="img-galeria" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">
+                            <img width="100%" class="img-galeria" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">
                         </div>
                     </div> 
                     @endforeach             
