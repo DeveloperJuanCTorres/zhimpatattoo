@@ -34,9 +34,9 @@ class AdminController extends Controller
         return view('artistas',compact('nav'));
     }
 
-    public function artistaid($name)
+    public function artistaid(Artist $artist)
     {
-        //dd($name);
+        dd($artist);
         $nav = 'Artistas';
         return view('artistaid',compact('nav','name'));
     }

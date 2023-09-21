@@ -52,7 +52,7 @@
             <!-- single Tem -->
             @foreach($artistas as $item)
             <div class="col-xl-3 col-lg-3 p-4">                
-                <a href="{{route('artistaid','zhimpa tattoo')}}">
+                <a href="{{route('artistaid',$item)}}">
                     <div class="single-team mb-80 text-center">
                         <div class="team-img">
                             <img src="https://zhimpatattoosperu.com/storage/{{$item->image}}" alt="">

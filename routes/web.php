@@ -25,7 +25,7 @@ Route::get('/',[AdminController::class,'home']);
 Route::get('/cotizar',[AdminController::class,'cotizar']);
 Route::get('/studio',[AdminController::class,'studio']);
 Route::get('/artistas',[AdminController::class,'artistas']);
-Route::get('/artistas/{name}',[adminController::class,'artistaid'])->name('artistaid');
+Route::get('/artistas/{artist}',[adminController::class,'artistaid'])->name('artistaid');
 
 
 Route::group(['prefix' => 'admin'], function () {
