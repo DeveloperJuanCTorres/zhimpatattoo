@@ -40,16 +40,23 @@
                     <img src="https://zhimpatattoosperu.com/storage/{{$artist->image}}" style="max-width: 400px;border-radius: 30px;" alt="">
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12">
+            
+            <div class="col-lg-6 col-md-11">
                 @php
                     $artes = json_decode($artist->artes);
                 @endphp
-                <div class="row">
-                    @foreach($artes as $arte)
-                    <div class="col-lg-3">                    
-                        <img class="img-galeria" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">            
+                <div class="gallery-area bg-black">
+                    <div class="container">
+                        <div class="row">
+                            @foreach($artes as $arte)
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="box snake mb-30">
+                                    <img class="img-galeria" src="https://zhimpatattoosperu.com/storage/{{$arte}}" alt="">
+                                </div>
+                            </div> 
+                            @endforeach             
+                        </div>
                     </div>
-                    @endforeach  
                 </div>
             </div>
         </div>
@@ -59,54 +66,6 @@
         <img src="{{asset('assets/img/gallery/about-shape.png')}}" alt="">
     </div>
 </section>
-
-<!--? Gallery Area Start -->
-<div class="gallery-area bg-black">
-    <div class="container">
-        <!-- Section Tittle -->
-        <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-7 col-md-9 col-sm-10">
-                <div class="section-tittle text-center mb-100">
-                    <span>Nuestra galería de imagenes</span>
-                    <h2>Algunas imágenes de nuestro Tattoo</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="box snake mb-30">
-                    <img class="img-galeria" src="{{asset('assets/img/gallery/galle1.jpg')}}" alt="">
-                </div>
-            </div>
-            <div class="col-lg-8 col-md-6 col-sm-6">
-                <div class="box snake mb-30">
-                    <img class="img-galeria" src="{{asset('assets/img/gallery/galle1.jpg')}}" alt="">
-                </div>
-            </div>
-            <div class="col-lg-8 col-md-6 col-sm-6">
-                <div class="box snake mb-30">
-                    <img class="img-galeria" src="{{asset('assets/img/gallery/galle1.jpg')}}" alt="">
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="box snake mb-30">
-                    <img class="img-galeria" src="{{asset('assets/img/gallery/galle1.jpg')}}" alt="">
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="box snake mb-30">
-                    <img class="img-galeria" src="{{asset('assets/img/gallery/galle1.jpg')}}" alt="">
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="box snake mb-30">
-                    <img class="img-galeria" src="{{asset('assets/img/gallery/galle1.jpg')}}" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Gallery Area End -->
 
 <section class="imagen-light" style="z-index: 9 !important;">
     <i class="fas fa-times close"></i>
