@@ -10,8 +10,6 @@ class AdminController extends Controller
     public function home()
     {
         $artistas = Artist::all();
-        //$artista = $artistas->first();
-        //dd($artista->artes);
         $nav = 'Inicio';
         return view('home',compact('nav','artistas'));
     }
@@ -36,8 +34,7 @@ class AdminController extends Controller
 
     public function artistaid(Artist $artist)
     {
-        dd($artist);
         $nav = 'Artistas';
-        return view('artistaid',compact('nav','name'));
+        return view('artistaid',compact('nav','artist'));
     }
 }
