@@ -18,6 +18,12 @@
     </div>
 </div>
 <!-- Hero End -->
+
+<section class="imagen-light" style="z-index: 9 !important;">
+    <i class="fas fa-times close"></i>
+    <img src="./img/img-3.jpg" alt="" class="agregar-imagen">
+</section>
+
 <!--? About Area Start -->
 <section class="about-area section-padding position-relative bg-black">
     <div class="container">
@@ -50,43 +56,13 @@
                                 $artes = json_decode($artist->artes);
                             @endphp
                             @foreach($artes as $arte)
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-3 col-md-3 col-sm-3">
                                 <div class="box snake mb-30">
-                                    <div class="gallery-img-id" style="background-image: url(https://zhimpatattoosperu.com/storage/{{$arte}});"></div>
-                                    <div class="overlay"></div>
+                                    <div class="img-galeria" style="background-image: url(https://zhimpatattoosperu.com/storage/{{$arte}});"></div>
+                                    <!-- <div class="overlay"></div> -->
                                 </div>
                             </div>
-                            @endforeach
-                            <!-- <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="box snake mb-30">
-                                    <div class="gallery-img-id" style="background-image: url(../assets/img/gallery/galle2.jpg);"></div>
-                                    <div class="overlay"></div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="box snake mb-30">
-                                    <div class="gallery-img-id" style="background-image: url(../assets/img/gallery/galle3.jpg);"></div>
-                                    <div class="overlay"></div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="box snake mb-30">
-                                    <div class="gallery-img-id" style="background-image: url(../assets/img/gallery/galle4.jpg);"></div>
-                                    <div class="overlay"></div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="box snake mb-30">
-                                    <div class="gallery-img-id" style="background-image: url(../assets/img/gallery/galle5.jpeg);"></div>
-                                    <div class="overlay"></div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="box snake mb-30">
-                                    <div class="gallery-img-id" style="background-image: url(../assets/img/gallery/galle6.jpg);"></div>
-                                    <div class="overlay"></div>
-                                </div>
-                            </div> -->
+                            @endforeach                            
                         </div>
                     </div>
                 </div>
@@ -102,3 +78,34 @@
 <!-- About-2 Area End -->
 
 @endsection
+
+<script>
+
+//IMAGEN TOTAL
+const imagenes = document.querySelectorAll('.img-galeria');
+const imagenesLight = document.querySelector('.agregar-imagen');
+const contenedorLight = document.querySelector('.imagen-light');
+
+imagenes.forEach(imagen =>{
+    imagen.addEventListener('click', ()=>{
+        aparecerImagen(imagen.getAttribute('src'))
+    
+    })
+})
+
+contenedorLight.addEventListener('click', (e) =>{
+    if(e.target !== imagenesLight){
+        contenedorLight.classList.remove('show');
+        imagenesLight.classList.remove('showImage'); 
+    }
+})
+
+const aparecerImagen = (imagen) =>{
+    imagenesLight.src = imagen;
+    contenedorLight.classList.add('show');
+    imagenesLight.classList.add('showImage');
+}
+//FIN IMAGEN TOTAL
+
+</script>
+@endpush
