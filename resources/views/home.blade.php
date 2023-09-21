@@ -50,7 +50,7 @@
         </div>
         <div class="row dot-style justify-content-center">
             <!-- single Tem -->
-            @foraeach($artistas as $item)
+            @foreach($artistas as $item)
             <div class="col-xl-3 col-lg-3 p-4">                
                 <a href="{{route('artistaid','zhimpa tattoo')}}">
                     <div class="single-team mb-80 text-center">
