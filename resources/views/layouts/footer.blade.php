@@ -4,72 +4,37 @@
             <div class="container">
                 <div class="footer-top footer-padding">
                     <div class="row d-flex justify-content-between">
-                        <div class="col-xl-3 col-lg-4 col-md-5 col-sm-8">
-                            <div class="single-footer-caption mb-50">
+                        <div class="col-xl-12 col-lg-4 col-md-5 col-sm-8">
+                            <div class="single-footer-caption mb-50 text-center">
                                 <!-- logo -->
                                 <div class="footer-logo">
-                                    <a href="/"><img src="{{asset('assets/img/logo/logo-zhimpa.png')}}" width="200" alt=""></a>
+                                    <a href="/"><img src="{{asset('assets/img/logo/logo-zhimpa.png')}}" width="300" alt=""></a>
                                 </div>
-                                <div class="footer-tittle">
-                                    <div class="footer-pera">
-                                        <p class="info1">Receive updates and latest news direct from Simply enter.</p>
+                                <div class="row justify-content-center">
+                                    <div class="footer-number p-2">
+                                        <h4><span>+51 </span>981 497 441</h4>
+                                        <p>zhimpatattoos@gmail.com</p>
                                     </div>
-                                </div>
-                                <div class="footer-number">
-                                    <h4><span>+51 </span>981 497 441</h4>
-                                    <p>zhimpatattoos@gmail.com</p>
-                                </div>
+                                    <div class="footer-number p-2">
+                                        <div class="form-group">
+                                            <button style="width: 300px;"  type="submit" class="button button-contactForm boxed-btn">Cotizar</button>
+                                        </div>
+                                    </div>
+                                </div>                                
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5">
-                            <div class="single-footer-caption mb-50">
+             
+                        
+                        <div class="col-xl-12 col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-footer-caption">
                                 <div class="footer-tittle">
-                                    <h4>Páginas </h4>
-                                    <ul>
-                                        <li><a href="#">Inicio</a></li>
-                                        <li><a href="#"> Studio</a></li>
-                                        <li><a href="#">Artistas</a></li>
-                                        <li><a href="#">Proyectos</a></li>
-                                        <li><a href="#">Pearcing</a></li>
-                                        <li><a href="#">Cotizar</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Explore</h4>
-                                    <ul>
-                                        <li><a href="#">Cookies</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Proparties</a></li>
-                                        <li><a href="#">Licenses</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Ubicación</h4>
-                                    <div class="footer-pera">
-                                        <p class="info1">Av. José Larco 872, Miraflores, Lima, Case Miraflores, Peru</p>
-                                    </div>
-                                </div>
-                                <!-- Form -->
-                                <div class="footer-form">
-                                    <div id="mc_embed_signup">
-                                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative mail_part" novalidate="true">
-                                            <input type="email" name="EMAIL" id="newsletter-form-email" placeholder=" Email " class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'">
-                                            <div class="form-icon">
-                                                <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm">Enviar</button>
-                                            </div>
-                                            <div class="mt-10 info"></div>
-                                        </form>
-                                    </div>
-                                </div>
+                                    <div class="row justify-content-center">
+                                        <h4 class="p-2">Ubicación:</h4>
+                                        <div class="footer-pera">
+                                            <p class="info1">Av. José Larco 872, Miraflores, Lima, Case Miraflores, Peru</p>
+                                        </div>
+                                    </div>                                    
+                                </div>                                
                             </div>
                         </div>
                     </div>
