@@ -3,11 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Artist;
 
 class AdminController extends Controller
 {
     public function home()
     {
+        $artistas = Artist::all();
+        dd($artistas);
         $nav = 'Inicio';
         return view('home',compact('nav'));
     }
