@@ -12,8 +12,8 @@
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="footer-number p-2">
-                                        <h4><span>+51 </span>981 497 441</h4>
-                                        <p>zhimpatattoos@gmail.com</p>
+                                        <h4><span>+51 </span>{{$home->telefono}}</h4>
+                                        <p>{{$home->correo}}</p>
                                     </div>
                                     <div class="footer-number p-2">
                                         <div class="form-group">
@@ -31,7 +31,7 @@
                                     <div class="row justify-content-center">
                                         <h4 class="p-2">Ubicación:</h4>
                                         <div class="footer-pera">
-                                            <p class="info1">Av. José Larco 872, Miraflores, Lima, Case Miraflores, Peru</p>
+                                            <p class="info1">{{$home->ubicacion}}</p>
                                         </div>
                                     </div>                                    
                                 </div>                                
@@ -51,10 +51,10 @@
                         <div class="col-xl-3 col-lg-4">
                             <!-- Footer Social -->
                             <div class="footer-social f-right">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.facebook.com/zhimpatattoos"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fas fa-globe"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a target="_target" href="{{$home->twiter}}"><i class="fab fa-twitter"></i></a>
+                                <a target="_target" href="{{$home->facebook}}"><i class="fab fa-facebook-f"></i></a>
+                                <a target="_target" href="{{$home->youtube}}"><i class="fas fa-globe"></i></a>
+                                <a target="_target" href="{{$home->instagram}}"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>

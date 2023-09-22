@@ -94,20 +94,20 @@
                     <span class="contact-info__icon"><i class="ti-home"></i></span>
                     <div class="media-body">
                         <h3>Lima, Perú.</h3>
-                        <p>Av. José Larco 872, Miraflores</p>
+                        <p>Av{{$home->ubicacion}}</p>
                     </div>
                 </div>
                 <div class="media contact-info">
                     <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                     <div class="media-body">
-                        <h3>+51 981 497 441</h3>
+                        <h3>+51 {{$home->telefono}}</h3>
                         <p>Lun a Vi 9am a 6pm</p>
                     </div>
                 </div>
                 <div class="media contact-info">
                     <span class="contact-info__icon"><i class="ti-email"></i></span>
                     <div class="media-body">
-                        <h3>zhimpatattoos@gmail.com</h3>
+                        <h3>{{$home->correo}}</h3>
                         <p>¡Envíanos tu consulta en cualquier momento!</p>
                     </div>
                 </div>

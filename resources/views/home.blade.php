@@ -4,31 +4,59 @@
 <a href="/cotizar" class="btn-flotante">Cotizar</a>
 
 <!--? slider Area Start-->
-<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators" style="display: none;">
-        <button type="button" data-target="#myCarousel" data-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-target="#myCarousel" data-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-target="#myCarousel" data-slide-to="2" aria-label="Slide 3"></button>
-    </div>
+<div id="myCarousel" class="carousel slide web" data-bs-ride="carousel">    
     <div class="carousel-inner h-700">
-        <div class="carousel-item active img-banner">
-            <img src="{{asset('assets/img/gallery/banner1.jpg')}}" class="d-block w-100" alt="...">
+        @php
+            $banner = json_decode($home->banners);
+        @endphp
+        @foreach($banner as $key => $item)
+        <div class="carousel-item {{$key==0?'active':''}} img-banner">
+            <img src="https://zhimpatattoosperu.com/storage/{{$item}}" class="d-block w-100" alt="...">
         </div>
-        <div class="carousel-item img-banner">
-            <img src="{{asset('assets/img/gallery/banner2.jpg')}}" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item img-banner">
-            <img src="{{asset('assets/img/gallery/banner3.jpg')}}" class="d-block w-100" alt="...">
-        </div>
+        @endforeach
     </div>
-    <!-- <button class="carousel-control-prev" type="button" data-target="#myCarousel" data-slide="prev">
+     <button style="border-width: 0;background-color: transparent;" class="carousel-control-prev" type="button" data-target="#myCarousel" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+        <!-- <span class="visually-hidden">Previous</span> -->
     </button>
-    <button class="carousel-control-next" type="button" data-target="#myCarousel" data-slide="next">
+    <button style="border-width: 0;background-color: transparent;" class="carousel-control-next" type="button" data-target="#myCarousel" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button> -->
+        <!-- <span class="visually-hidden">Next</span> -->
+    </button>
+</div>
+
+<div id="myCarousel" class="carousel slide mobile" data-bs-ride="carousel">
+        <!-- php
+            $banner_mobil = json_decode($home->banners_mobil);
+        endphp
+    <div class="carousel-indicators">
+        foreach($banner_mobil as $key => $value)
+        <button type="button" data-target="#myCarousel" data-slide-to="{{$key}}" class="{{$key==0?'active':''}}" aria-current="true" aria-label="Slide {{$key}}"></button>
+        endforeach
+        
+    </div> -->
+    <!-- <ol class="carousel-indicators">
+      <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#theCarousel" data-slide-to="1"></li>
+      <li data-target="#theCarousel" data-slide-to="2"></li>
+      
+    </ol> -->
+    <div class="carousel-inner h-700">
+        @php
+            $banner_mobil = json_decode($home->banners_mobil);
+        @endphp
+        @foreach($banner_mobil as $key => $item)
+        <div class="carousel-item {{$key==0?'active':''}} img-banner">
+            <img src="https://zhimpatattoosperu.com/storage/{{$item}}" class="d-block w-100" alt="...">
+        </div>
+        @endforeach
+    </div>
+     <button style="border-width: 0;background-color: transparent;" class="carousel-control-prev" type="button" data-target="#myCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button style="border-width: 0;background-color: transparent;" class="carousel-control-next" type="button" data-target="#myCarousel" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
 </div>
 
 <section class="imagen-light" style="z-index: 9 !important;">
@@ -190,7 +218,7 @@
 <script>
 var myCarousel = document.querySelector('#myCarousel')
 var carousel = new bootstrap.Carousel(myCarousel, {
-  interval: 5000,
+  interval: 3000,
   wrap: true
 })
 
