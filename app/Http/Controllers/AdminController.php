@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Artist;
+use App\Models\Studio;
 use App\Models\Home;
 
 class AdminController extends Controller
@@ -27,8 +28,9 @@ class AdminController extends Controller
     public function studio()
     {
         $home = Home::first();
+        $studio = Studio::first();
         $nav = 'Studio';
-        return view('studio',compact('nav','home'));
+        return view('studio',compact('nav','home','studio'));
     }
 
     public function artistas()
