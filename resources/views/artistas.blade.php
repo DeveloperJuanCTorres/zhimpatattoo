@@ -45,7 +45,7 @@
                                     <img src="https://zhimpatattoosperu.com/storage/{{$item->image}}" alt="">
                                 </div>
                                 <div class="team-caption">
-                                    <span>Master Tattoo</span>
+                                    <span>{{$item->title}}</span>
                                     <h3><a href="#">{{$item->name}}</a></h3>
                                 </div>
                             </div>
