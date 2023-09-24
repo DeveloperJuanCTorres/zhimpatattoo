@@ -34,8 +34,9 @@ class AdminController extends Controller
     public function artistas()
     {
         $home = Home::first();
+        $artistas = Artist::all();
         $nav = 'Artistas';
-        return view('artistas',compact('nav','home'));
+        return view('artistas',compact('nav','home','artistas'));
     }
 
     public function artistaid(Artist $artist)
