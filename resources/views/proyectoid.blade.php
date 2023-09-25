@@ -59,6 +59,12 @@
     <div class="about-shape">
         <img src="{{asset('assets/img/gallery/about-shape.png')}}" alt="">
     </div>
+
+    <div class="container">
+        <div class="row justify-content-center section-padding">
+            <iframe class="mobil-iframe" style="border-radius: 20px;" src="{{$project->video_link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+        </div>
+    </div>    
 </section>
 
 <section class="imagen-light" style="z-index: 9 !important;">
