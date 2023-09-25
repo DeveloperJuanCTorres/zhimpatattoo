@@ -7,6 +7,7 @@ use App\Models\Artist;
 use App\Models\Studio;
 use App\Models\Position;
 use App\Models\Project;
+use App\Models\Answer;
 use App\Models\Home;
 
 class AdminController extends Controller
@@ -23,8 +24,8 @@ class AdminController extends Controller
     {
         $nav = 'Cotizar';
         $home = Home::first();
-        //dd($home);
-        return view('cotizar',compact('nav','home'));
+        $preguntas = Answer::all();
+        return view('cotizar',compact('nav','home','preguntas'));
     }
 
     public function studio()

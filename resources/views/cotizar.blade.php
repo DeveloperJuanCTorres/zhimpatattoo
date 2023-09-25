@@ -128,19 +128,21 @@
                     </div>
                 </div>
                 <div class="accordion" id="accordionExample">
+                    @foreach($preguntas as $key => $item)
                     <div class="accordion-item p-4">
-                        <h2 style="cursor: pointer;color:#d19f68;" class="accordion-header" id="headingOne" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            ¿CUÁL ES EL HORARIO DE ATENCIÓN?
+                        <h2 style="cursor: pointer;color:#d19f68;" class="accordion-header" id="heading{{$key}}" data-bs-toggle="collapse" data-bs-target="#collapse{{$key}}" aria-expanded="false" aria-controls="collapse{{$key}}">
+                            {{$item->pregunta}}
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div id="collapse{{$key}}" class="accordion-collapse collapse {{$key==0?'show':''}}" aria-labelledby="heading{{$key}}" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="footer-pera">
-                                    <p style="padding-left: 20px;" class="info1">El horario que mantenemos es de Lunes a Sábado de 10 a.m. a 7:00 p.m.</p>
+                                    <p style="padding-left: 20px;" class="info1">{{$item->respuesta}}</p>
                                 </div>                            
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item p-4">
+                    @endforeach
+                    <!-- <div class="accordion-item p-4">
                         <h2 style="cursor: pointer;color:#d19f68;" class="accordion-header" id="headingTwo" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             ¿PUEDO ACERCARME AL STUDIOSIN PREVIA CITA?
                         </h2>
@@ -163,7 +165,7 @@
                             </div> 
                         </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-xl-4 col-lg-7 col-md-9 col-sm-10 m-auto">
