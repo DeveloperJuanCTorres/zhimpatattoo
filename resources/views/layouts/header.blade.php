@@ -13,9 +13,9 @@
                                             <li class="{{$nav=='Inicio'?'active':''}}"><a href="/">Inicio</a></li>
                                             <li class="{{$nav=='Studio'?'active':''}}"><a href="/studio">Studio</a></li>
                                             <li class="{{$nav=='Artistas'?'active':''}}"><a href="/artistas">Artistas</a></li>
-                                            <li class="mobile"><a href="#">Proyectos</a></li>
-                                            <li class="mobile"><a href="/piercing">Pearcing</a></li>
-                                            <li class="mobile"><a href="/cotizar">Cotizar</a></li>
+                                            <li class="mobile {{$nav=='Proyectos'?'active':''}}"><a href="/proyectos">Proyectos</a></li>
+                                            <li class="mobile {{$nav=='Piercing'?'active':''}}"><a href="/piercing">Pearcing</a></li>
+                                            <li class="mobile {{$nav=='Cotizar'?'active':''}}"><a href="/cotizar">Cotizar</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -33,7 +33,7 @@
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li class="{{$nav=='Proyectos'?'active':''}}"><a href="#">Proyectos</a></li>
+                                            <li class="{{$nav=='Proyectos'?'active':''}}"><a href="/proyectos">Proyectos</a></li>
                                             <li class="{{$nav=='Piercing'?'active':''}}"><a href="/piercing">Piercing</a></li>
                                             <li class="{{$nav=='Cotizar'?'active':''}}"><a href="/cotizar">Cotizar</a></li>
                                         </ul>

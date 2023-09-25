@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="footer-top footer-padding">
                     <div class="row d-flex justify-content-between">
-                        <div class="col-xl-12 col-lg-4 col-md-5 col-sm-8">
+                        <div class="col-xl-12">
                             <div class="single-footer-caption mb-50 text-center">
                                 <!-- logo -->
                                 <div class="footer-logo">
@@ -25,7 +25,7 @@
                         </div>
              
                         
-                        <div class="col-xl-12 col-lg-4 col-md-6 col-sm-8">
+                        <div class="col-xl-12">
                             <div class="single-footer-caption">
                                 <div class="footer-tittle">
                                     <div class="row justify-content-center">

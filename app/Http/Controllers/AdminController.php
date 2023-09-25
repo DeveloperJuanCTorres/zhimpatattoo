@@ -63,4 +63,11 @@ class AdminController extends Controller
         $nav = 'Piercing';
         return view('piercingid',compact('nav','posicion','home'));
     }
+
+    public function proyectos()
+    {
+        $home = Home::first();
+        $nav = 'Proyectos';
+        return view('proyecto',compact('nav','home'));
+    }
 }
