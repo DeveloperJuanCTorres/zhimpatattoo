@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Artist;
 use App\Models\Studio;
 use App\Models\Position;
+use App\Models\Project;
 use App\Models\Home;
 
 class AdminController extends Controller
@@ -67,7 +68,17 @@ class AdminController extends Controller
     public function proyectos()
     {
         $home = Home::first();
+        $proyectos = Project::all();
         $nav = 'Proyectos';
-        return view('proyecto',compact('nav','home'));
+        return view('proyecto',compact('nav','home','proyectos'));
+    }
+
+    public function proyectoid(Project $project)
+    {
+        $home = Home::first();
+        //$proyecto = Project::first();
+        //dd($artist->name);
+        $nav = 'Proyectos';
+        return view('proyectoid',compact('nav','project','home'));
     }
 }

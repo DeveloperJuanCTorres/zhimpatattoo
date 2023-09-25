@@ -5,7 +5,7 @@ html, body {
   body {
     font-size: 40px;
     font-family: 'Bungee Shade', cursive;
-    color: #222;
+    color: #fff;
     background: #222;
   }
   
@@ -57,7 +57,7 @@ html, body {
   .border {
     left: -30px;
     top: -30px;
-    border: 30px solid #222;
+    border: 30px solid #fff;
     box-sizing: content-box;
     transition: 360ms ease-in-out;
   }
@@ -119,54 +119,6 @@ html, body {
     }
   }
   
-  /* image backgrounds */
-  .image-0 {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/box-image_0.jpg);
-  }
-  
-  .image-1 {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/box-image_1.jpg);
-  }
-  
-  .image-2 {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/box-image_2.jpg);
-  }
-  
-  .image-3 {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/box-image_3.jpg);
-  }
-  
-  .image-4 {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/box-image_4.jpg);
-  }
-  
-  .image-5 {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/box-image_5.jpg);
-  }
-  
-  .image-6 {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/box-image_6.jpg);
-  }
-  
-  .image-7 {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/box-image_7.jpg);
-  }
-  
-  .image-8 {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/box-image_8.jpg);
-  }
-  
-  .image-9 {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/box-image_9.jpg);
-  }
-  
-  .image-10 {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/box-image_10.jpg);
-  }
-  
-  .image-11 {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/box-image_11.jpg);
-  }
   
   
   

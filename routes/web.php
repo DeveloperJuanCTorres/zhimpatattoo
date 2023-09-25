@@ -29,6 +29,7 @@ Route::get('/artistas/{artist}',[adminController::class,'artistaid'])->name('art
 Route::get('/piercing',[AdminController::class,'piercing']);
 Route::get('/piercing/{posicion}',[adminController::class,'piercingid'])->name('piercingid');
 Route::get('/proyectos',[AdminController::class,'proyectos']);
+Route::get('/proyecto/{project}',[adminController::class,'proyectoid'])->name('proyectoid');
 
 
 Route::group(['prefix' => 'admin'], function () {

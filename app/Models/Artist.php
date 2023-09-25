@@ -26,4 +26,9 @@ class Artist extends Model
     {
         return 'slug';
     }
+
+    public function project()
+    {
+        return $this->hasMany(Project::class);
+    }
 }
