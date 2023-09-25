@@ -13,6 +13,28 @@
     }
 }
 
+.slider-area3{
+    background-image: url(../img/hero/hero3.jpg);
+    background-repeat:no-repeat;
+    background-size:cover
+}
+.slider-area3 .hero-cap h2{
+    color:#fff;
+    font-size:50px;
+    font-weight:800;
+    text-transform:capitalize;line-height:1
+}
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .slider-area3 .hero-cap h2{
+        font-size:50px
+    }
+}
+@media (max-width: 575px){
+    .slider-area3 .hero-cap h2{
+        font-size:35px
+    }
+}
+
 @media (max-width:574px)
 {
     .web{

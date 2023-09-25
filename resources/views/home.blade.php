@@ -25,7 +25,7 @@
     </button>
 </div>
 
-<div id="myCarousel" class="carousel slide mobile" data-bs-ride="carousel">
+<div id="myCarousel1" class="carousel slide mobile" data-bs-ride="carousel1">
         <!-- php
             $banner_mobil = json_decode($home->banners_mobil);
         endphp
@@ -51,10 +51,10 @@
         </div>
         @endforeach
     </div>
-     <button style="border-width: 0;background-color: transparent;" class="carousel-control-prev" type="button" data-target="#myCarousel" data-slide="prev">
+     <button style="border-width: 0;background-color: transparent;" class="carousel-control-prev" type="button" data-target="#myCarousel1" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     </button>
-    <button style="border-width: 0;background-color: transparent;" class="carousel-control-next" type="button" data-target="#myCarousel" data-slide="next">
+    <button style="border-width: 0;background-color: transparent;" class="carousel-control-next" type="button" data-target="#myCarousel1" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
     </button>
 </div>
@@ -218,6 +218,12 @@
 <script>
 var myCarousel = document.querySelector('#myCarousel')
 var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 3000,
+  wrap: true
+})
+
+var myCarousel1 = document.querySelector('#myCarousel1')
+var carousel1 = new bootstrap.Carousel(myCarousel1, {
   interval: 3000,
   wrap: true
 })

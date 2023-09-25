@@ -47,4 +47,11 @@ class AdminController extends Controller
         $nav = 'Artistas';
         return view('artistaid',compact('nav','artist','home'));
     }
+
+    public function piercing()
+    {
+        $home = Home::first();
+        $nav = 'Piercing';
+        return view('piercing',compact('nav','home'));
+    }
 }

@@ -4,7 +4,7 @@
 <a href="/cotizar" class="btn-flotante">Cotizar</a>
 
 <!--? Hero Start -->
-<div class="slider-area2">
+<div class="slider-area3">
     <div class="slider-height2 d-flex align-items-center">
         <div class="container">
             <div class="row">

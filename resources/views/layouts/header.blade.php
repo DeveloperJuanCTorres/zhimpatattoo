@@ -14,7 +14,7 @@
                                             <li class="{{$nav=='Studio'?'active':''}}"><a href="/studio">Studio</a></li>
                                             <li class="{{$nav=='Artistas'?'active':''}}"><a href="/artistas">Artistas</a></li>
                                             <li class="mobile"><a href="#">Proyectos</a></li>
-                                            <li class="mobile"><a href="#">Pearcing</a></li>
+                                            <li class="mobile"><a href="/piercing">Pearcing</a></li>
                                             <li class="mobile"><a href="/cotizar">Cotizar</a></li>
                                         </ul>
                                     </nav>
@@ -34,7 +34,7 @@
                                     <nav>
                                         <ul id="navigation">
                                             <li class="{{$nav=='Proyectos'?'active':''}}"><a href="#">Proyectos</a></li>
-                                            <li class="{{$nav=='Pearcing'?'active':''}}"><a href="#">Pearcing</a></li>
+                                            <li class="{{$nav=='Piercing'?'active':''}}"><a href="/piercing">Piercing</a></li>
                                             <li class="{{$nav=='Cotizar'?'active':''}}"><a href="/cotizar">Cotizar</a></li>
                                         </ul>
                                     </nav>
