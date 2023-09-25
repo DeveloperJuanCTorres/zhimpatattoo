@@ -4,7 +4,7 @@ html, body {
   
   body {
     font-size: 40px;
-    font-family: 'Bungee Shade', cursive;
+    font-family: 'Oswald', cursive;
     color: #fff;
     background: #222;
   }
@@ -78,7 +78,7 @@ html, body {
     width: 100%;
     position: fixed;
     bottom: 0px;
-    font-family: Arial, sans-serif;
+    font-family: 'Oswald', cursive;
     font-size: 14px;
     padding: 2px 8px;
     a {
