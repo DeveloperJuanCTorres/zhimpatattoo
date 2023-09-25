@@ -29,6 +29,6 @@ class Artist extends Model
 
     public function project()
     {
-        return $this->hasMany(Project::class);
+        return $this->belongsTo(Project::class);
     }
 }

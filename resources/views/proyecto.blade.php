@@ -30,19 +30,17 @@
             </div>
         </div>
         <div class="row dot-style justify-content-center">           
-            @foreach($proyectos as $item)
-            <a href="{{route('proyectoid',$item)}}">
-                <div class="box" style="border-radius: 20px;">
-                
+            @foreach($proyectos as $item)            
+            <div class="box" style="border-radius: 20px;">
+                <a href="{{route('proyectoid',$item)}}">
                     <div class="image-wrap">
                         <div class="image" style="background: url(https://zhimpatattoosperu.com/storage/{{$item->proyecto_img}});"></div>
                     </div>
                     <div class="text">
                         <span>{{$item->proyecto_name}} </span>
                     </div>
-               
-            </div>
-            </a>
+                </a>
+            </div>            
             @endforeach
           
 </div>
