@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Artist;
 use App\Models\Studio;
+use App\Models\Position;
 use App\Models\Home;
 
 class AdminController extends Controller
@@ -51,7 +52,15 @@ class AdminController extends Controller
     public function piercing()
     {
         $home = Home::first();
+        $positions = Position::all();
         $nav = 'Piercing';
-        return view('piercing',compact('nav','home'));
+        return view('piercing',compact('nav','home','positions'));
+    }
+
+    public function piercingid(Position $posicion)
+    {
+        $home = Home::first();
+        $nav = 'Piercing';
+        return view('piercingid',compact('nav','posicion','home'));
     }
 }

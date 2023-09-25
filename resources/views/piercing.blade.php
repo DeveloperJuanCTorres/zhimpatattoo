@@ -3,13 +3,13 @@
 @section('content')
 <a href="/cotizar" class="btn-flotante">Cotizar</a>
 
-<div class="slider-area2">
+<div class="slider-area3">
     <div class="slider-height2 d-flex align-items-center">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="hero-cap hero-cap2 pt-70 text-center">
-                        <h2>Artistas</h2>
+                        <h2>Piercing</h2>
                     </div>
                 </div>
             </div>
@@ -31,22 +31,18 @@
                     <div class="col-xl-8 col-lg-8 col-md-11 col-sm-11">
                         <div class="section-tittle text-center mb-100">
                             <span>Professional Teams</span>
-                            <h2>Nuestros Artistas</h2>
+                            <h2>Nuestros Diseños</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row dot-style justify-content-center">
                     <!-- single Tem -->
-                    @foreach($artistas as $item)
+                    @foreach($positions as $item)
                     <div class="col-xl-3 col-lg-3 p-4">                
-                        <a href="{{route('artistaid',$item)}}">
+                        <a href="{{route('piercingid',$item)}}">
                             <div class="single-team mb-80 text-center">
                                 <div class="team-img">
                                     <img src="https://zhimpatattoosperu.com/storage/{{$item->image}}" alt="">
-                                </div>
-                                <div class="team-caption">
-                                    <span>{{$item->title}}</span>
-                                    <h3><a href="#">{{$item->name}}</a></h3>
                                 </div>
                             </div>
                         </a>    

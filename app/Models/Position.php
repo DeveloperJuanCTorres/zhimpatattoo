@@ -15,7 +15,15 @@ class Position extends Model
         'artes',
         'artista_name',
         'artista_description',
-        'artista_img'
+        'artista_img',
+        'image',
+        'slug',
+        'posicion'
 
     ];
+
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
 }
