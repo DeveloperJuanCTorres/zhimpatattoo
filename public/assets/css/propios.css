@@ -17,7 +17,7 @@
         border-radius: 10px;
         transform: scale(0);
         transition: transform .3s .2s;
-    }
+    }    
 }
 
 @media (max-width:574px)
@@ -28,6 +28,10 @@
         border-radius: 10px;
         transform: scale(0);
         transition: transform .3s .2s;
+    }
+    .mobil-iframe{
+        width: 95%;
+        height: 200px;
     }
 }
 
