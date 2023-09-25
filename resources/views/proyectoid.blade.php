@@ -31,13 +31,13 @@
                     </div>
                     <p class="mb-30 pera-bottom">{{$project->artist->description}}</p>
                     <!-- <p class="pera-top mb-50">TechnologyCix presents your services with flexible, convefnient and ent anipurpose layouts. You can select your favorite.</p> -->
-                    <img src="https://zhimpatattoosperu.com/storage/{{$artist->signature}}" alt="">
+                    <img src="https://zhimpatattoosperu.com/storage/{{$project->artist->signature}}" alt="">
                 </div>                
             </div>
             <div class="col-lg-6 col-md-11">
                 <!-- about-img -->
                 <div class="about-img text-center">
-                    <img src="https://zhimpatattoosperu.com/storage/{{$artist->image}}" style="max-width: 400px;border-radius: 30px;" alt="">
+                    <img src="https://zhimpatattoosperu.com/storage/{{$project->artist->image}}" style="max-width: 400px;border-radius: 30px;" alt="">
                 </div>
             </div>
             

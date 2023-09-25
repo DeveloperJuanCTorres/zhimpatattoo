@@ -27,8 +27,8 @@ class Artist extends Model
         return 'slug';
     }
 
-    public function project()
+    public function projects()
     {
-        return $this->belongsTo(Project::class);
+        return $this->hasMany(Project::class);
     }
 }
