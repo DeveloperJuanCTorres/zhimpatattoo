@@ -32,7 +32,7 @@
         <div class="row dot-style justify-content-center p-4">           
             @foreach($proyectos as $item)   
             <a href="{{route('proyectoid',$item)}}" style="display: contents;">         
-                <div class="box" style="border-radius: 20px;">                
+                <div class="box">                
                     <div class="image-wrap">                       
                         <div class="image" style="background: url(https://zhimpatattoosperu.com/storage/{{$item->proyecto_img}});background-repeat: no-repeat;background-size: cover;"></div>                        
                     </div>

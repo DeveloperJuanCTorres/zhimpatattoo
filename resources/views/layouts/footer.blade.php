@@ -17,7 +17,7 @@
                                     </div>
                                     <div class="footer-number p-2">
                                         <div class="form-group">
-                                           <a href="/cotizar" class="button button-contactForm boxed-btn" style="width: 300px;">Cotizar</a> 
+                                           <a href="/cotizar" class="button button-contactForm boxed-btn" style="width: 300px;border-radius: 10px;">Cotizar</a> 
                                            <!-- <button style="width: 300px;"  type="submit" class="button button-contactForm boxed-btn">Cotizar</button> -->
                                         </div>
                                     </div>
