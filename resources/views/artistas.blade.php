@@ -46,7 +46,7 @@
                                 </div>
                                 <div class="team-caption">
                                     <span>{{$item->title}}</span>
-                                    <h3><a href="#">{{$item->name}}</a></h3>
+                                    <h3><a href="{{route('artistaid',$item)}}">{{$item->name}}</a></h3>
                                 </div>
                             </div>
                         </a>    
