@@ -41,28 +41,24 @@
                                 <input class="form-control validate" name="mobil" id="wa_mobil" type="number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Mobil'" placeholder="Enter Mobil">
                             </div>
                         </div>
-                        <div class="col-sm-3">
-                            <div class="form-group">
-                                <select name="tipo" id="wa_tipo">
-                                    <option value="">Tipo de Tatuaje</option>
-                                    <option value="0">Color</option>
-                                    <option value="1">Grises</option>
-                                </select>
-                            </div>
+                        <div class="col-xl-3 col-lg-6 col-md-2 col-sm-6">
+                            <select class="form-group" name="tipo" id="wa_tipo">
+                                <option value="">Tipo de Tatuaje</option>
+                                <option value="0">Color</option>
+                                <option value="1">Grises</option>
+                            </select>
                         </div>
-                        <div class="col-sm-3">
-                            <div class="form-group">
-                                <select name="area" id="wa_area">
-                                    <option value="default">Área del Cuerpo</option>
-                                    <option value="0">Aún no me decido</option>
-                                    <option value="1">Brazo</option>
-                                    <option value="2">Pierna</option>
-                                    <option value="3">Espalda</option>
-                                    <option value="4">Pecho</option>
-                                    <option value="5">Mano</option>
-                                    <option value="6">Cuello</option>
-                                </select>
-                            </div>
+                        <div class="col-xl-3 col-lg-6 col-md-2 col-sm-6">
+                            <select class="form-group" name="area" id="wa_area">
+                                <option value="default">Área del Cuerpo</option>
+                                <option value="0">Aún no me decido</option>
+                                <option value="1">Brazo</option>
+                                <option value="2">Pierna</option>
+                                <option value="3">Espalda</option>
+                                <option value="4">Pecho</option>
+                                <option value="5">Mano</option>
+                                <option value="6">Cuello</option>
+                            </select>
                         </div>
                         <div class="col-12">
                             <div class="form-group">
