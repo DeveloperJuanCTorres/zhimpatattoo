@@ -12,8 +12,9 @@
         <!-- META -->
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta property="og:title" itemprop="headline" content="Elsvan" />
-        <meta property="og:description" itemprop="description" content="CONSTRUCCIONES INMOBILIARIAS ELSVAN S.A.C Se constituye el 15 de noviembre del 2011." />
-        <meta property="og:keywords" itemprop="keywords" content="Construcciones, Inmobiliarias, Departamentos, Duplex, Flat">
+        <meta property="og:description" itemprop="description" content="Zhimpa Tattoo ha estado ofreciendo trabajos de calidad desde el 2002.
+Contamos con artistas con la experiencia necesaria para garantizar la seguridad a todos nuestros clientes." />
+        <meta property="og:keywords" itemprop="keywords" content="zhimpa, tattos, tatuajes, piercing">
         <meta name="googlebot" content="noindex">
         <meta name="googlebot-news" content="nosnippet">
         <meta property="og:image" itemprop="image" content="/assets/img/logo/logo-min.png" />
@@ -50,7 +51,7 @@ Contamos con artistas con la experiencia necesaria para garantizar la seguridad 
 
     <!-- Fonts -->
     <?php
-        $version = '1993.2.17';
+        $version = '1993.2.18';
     ?>
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
