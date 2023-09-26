@@ -34,7 +34,7 @@
             <a href="{{route('proyectoid',$item)}}" style="display: contents;">         
                 <div class="box" style="border-radius: 20px;">                
                     <div class="image-wrap">                       
-                        <div class="image" style="background: url(https://zhimpatattoosperu.com/storage/{{$item->proyecto_img}});"></div>                        
+                        <div class="image" style="background: url(https://zhimpatattoosperu.com/storage/{{$item->proyecto_img}});background-repeat: no-repeat;background-size: cover;"></div>                        
                     </div>
                     <div class="text">
                         <span>{{$item->proyecto_name}} </span>
