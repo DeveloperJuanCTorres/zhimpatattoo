@@ -49,7 +49,7 @@
 @endsection
 
 @push('css')
-<link rel="stylesheet" href="{{asset('assets/css/proyecto.css')}}?v=1993.1">
+<link rel="stylesheet" href="{{asset('assets/css/proyecto.css')}}?v=1993.2">
 @endpush
 @push('javascript')
 

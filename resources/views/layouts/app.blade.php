@@ -11,7 +11,7 @@
 
     <!-- Fonts -->
     <?php
-        $version = '1993.2.13';
+        $version = '1993.2.15';
     ?>
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">

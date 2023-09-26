@@ -56,9 +56,9 @@
         </div>
     </div>
     <!-- About Shape -->
-    <div class="about-shape">
+    <!-- <div class="about-shape">
         <img src="{{asset('assets/img/gallery/about-shape.png')}}" alt="">
-    </div>
+    </div> -->
 </section>
 
 <section class="imagen-light" style="z-index: 9 !important;">

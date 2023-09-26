@@ -56,9 +56,9 @@
         </div>
     </div>
     <!-- About Shape -->
-    <div class="about-shape">
+    <!-- <div class="about-shape">
         <img src="{{asset('assets/img/gallery/about-shape.png')}}" alt="">
-    </div>
+    </div> -->
 
     <div class="container">
         <div class="row justify-content-center section-padding">
