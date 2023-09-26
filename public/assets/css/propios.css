@@ -482,7 +482,7 @@ body {
 }
 .wa__btn_w_img .wa__cs_img:after{
     content: '';
-    background: #ffffff url('../img/whatsapp_logo_green.svg') center center no-repeat;
+    background: #ffffff;
     background-size: 21px;
     display: block;
     width: 27px;
@@ -500,7 +500,7 @@ body {
 
 .wa__stt_offline.wa__btn_w_img .wa__cs_img:after{
     content: '';
-    background: #ffffff url('../img/whatsapp_logo_gray.svg') center center no-repeat;
+    /* background: #ffffff url('../img/whatsapp_logo_gray.svg') center center no-repeat; */
     background-size: 21px;
     display: block;
     width: 27px;
@@ -619,7 +619,7 @@ body {
 }
 .wa__popup_chat_box .wa__popup_heading:before{
     content: '';
-    background: url('../img/whatsapp_logo.svg') center top no-repeat;
+    /* background: url('../img/whatsapp_logo.svg') center top no-repeat; */
     background-size: 33px;
     display: block;
     width: 55px;
@@ -705,7 +705,7 @@ body {
 }
 .wa__popup_chat_box .wa__stt:after{
     content: '';
-    background: url('../img/whatsapp_logo_green.svg') 0 0 no-repeat;
+    /* background: url('../img/whatsapp_logo_green.svg') 0 0 no-repeat; */
     position: absolute;
     right: 14px;
     top: 26px;
@@ -716,7 +716,7 @@ body {
     -moz-background-size: 100% 100%;
 }
 .wa__popup_chat_box .wa__stt.wa__stt_offline:after{
-    background-image: url('../img/whatsapp_logo_gray_sm.svg');
+    background-image: none;
 }
 .wa__popup_chat_box .wa__stt.wa__stt_online{
     transition: 0.2s ease all;
@@ -925,7 +925,7 @@ body {
 
 .wa__popup_chat_box_ct .wa__popup_heading_ct:before {
     content: '';
-    background: url(../img/whatsapp_logo.svg) center top no-repeat;
+    /* background: url(../img/whatsapp_logo.svg) center top no-repeat; */
     background-size: 30px;
     display: block;
     width: 30px;
@@ -1047,7 +1047,7 @@ body {
     height: 100%;
     left: 0;
     top: 0;
-    background: transparent url('../img/whatsapp_logo.svg') center center no-repeat;
+    /* background: transparent url('../img/whatsapp_logo.svg') center center no-repeat; */
     background-size: 30px auto;
     -webkit-background-size: 30px auto;
     -moz-background-size: 30px auto;
@@ -1064,7 +1064,7 @@ body {
     height: 100%;
     left: 0;
     top: 0;
-    background: transparent url('../img/x_icon.svg') center center no-repeat;
+    /* background: transparent url('../img/x_icon.svg') center center no-repeat; */
     background-size: 14px auto;
     -webkit-background-size: 14px auto;
     -moz-background-size: 14px auto;

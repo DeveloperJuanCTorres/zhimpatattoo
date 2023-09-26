@@ -23,7 +23,7 @@
             				<div class="wa__popup_content_item ">
 				<a target="_blank" href="https://web.whatsapp.com/send?phone=51981497441&amp;text=texto" class="wa__stt wa__stt_online">
 				    				        <div class="wa__popup_avatar">
-				            <div class="wa__cs_img_wrap" style="background: url(https://demo.ninjateam.org/whatsapp-chat-wordpress/wp-content/uploads/sites/47/2018/11/17299bc407878ac0b9a914493b172fce_169x169.jpg) center center no-repeat; background-size: cover;"></div>
+				            <div class="wa__cs_img_wrap"></div>
 				                </div>
 					        
                         <div class="wa__popup_txt">
@@ -38,7 +38,7 @@
             				<div class="wa__popup_content_item ">
 				<a target="_blank" href="https://web.whatsapp.com/send?phone=51981497441&amp;text=texto" class="wa__stt wa__stt_online">
 				    				        <div class="wa__popup_avatar">
-				            <div class="wa__cs_img_wrap" style="background: url(https://demo.ninjateam.org/whatsapp-chat-wordpress/wp-content/uploads/sites/47/2018/11/e979645000ac6cf7865e0b904df2817e_169x169.jpg) center center no-repeat; background-size: cover;"></div>
+				            <div class="wa__cs_img_wrap"></div>
 				                </div>
 					        
                         <div class="wa__popup_txt">

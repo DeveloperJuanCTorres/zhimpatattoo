@@ -61,7 +61,7 @@
 
 <section class="imagen-light" style="z-index: 9 !important;">
     <i class="fas fa-times close"></i>
-    <img src="./img/img-3.jpg" alt="" class="agregar-imagen">
+    <img src="" alt="" class="agregar-imagen">
 </section>
     
 <!--? Team Start -->
