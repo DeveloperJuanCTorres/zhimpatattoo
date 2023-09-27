@@ -51,7 +51,7 @@ Contamos con artistas con la experiencia necesaria para garantizar la seguridad 
 
     <!-- Fonts -->
     <?php
-        $version = '1993.2.18';
+        $version = '1993.2.19';
     ?>
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">

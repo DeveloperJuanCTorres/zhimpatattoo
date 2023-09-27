@@ -31,4 +31,9 @@ class Artist extends Model
     {
         return $this->hasMany(Project::class);
     }
+
+    public function Positions()
+    {
+        return $this->hasMany(Position::class);
+    }
 }

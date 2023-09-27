@@ -38,9 +38,9 @@
                 <div class="about-caption">
                     <!-- Section Tittle -->
                     <div class="section-tittle section-tittle3 mb-35">
-                        <h2>{{$posicion->artista_name}}</h2>
+                        <h2>{{$posicion->artist->name}}</h2>
                     </div>
-                    <p class="mb-30 pera-bottom">{{$posicion->artista_description}}</p>
+                    <p class="mb-30 pera-bottom">{{$posicion->artist->description}}</p>
                     <!-- <p class="pera-top mb-50">TechnologyCix presents your services with flexible, convefnient and ent anipurpose layouts. You can select your favorite.</p> -->
                     <!-- <img src="https://zhimpatattoosperu.com/storage/" alt=""> -->
                 </div>                
@@ -48,7 +48,7 @@
             <div class="col-lg-6 col-md-11 pt-4">
                 <!-- about-img -->
                 <div class="about-img text-center">
-                    <img src="https://zhimpatattoosperu.com/storage/{{$posicion->artista_img}}" style="max-width: 400px;border-radius: 30px;" alt="">
+                    <img src="https://zhimpatattoosperu.com/storage/{{$posicion->artist->img}}" style="max-width: 400px;border-radius: 30px;" alt="">
                 </div>
             </div> 
         </div>
