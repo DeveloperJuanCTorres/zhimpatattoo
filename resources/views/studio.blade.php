@@ -90,7 +90,7 @@
                 </div>
             </div>                    
         </div> -->
-        <div class="row justify-content-center section-padding">
+        <div class="row justify-content-center">
             <iframe class="mobil-iframe" style="border-radius: 20px;" src="{{$studio->link_video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
         </div>
     </div>
