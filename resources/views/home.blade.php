@@ -109,7 +109,7 @@
 </div>
 <!-- Team End -->
 
-<div class="team-area bg-black section-padding">
+<div class="team-area bg-black">
     <div class="container">
         <!-- Section Tittle -->
         <div class="row justify-content-center">
