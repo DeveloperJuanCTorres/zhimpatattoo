@@ -25,7 +25,7 @@
             <div class="col-lg-6 col-md-11">
                 <!-- about-img -->
                 <div class="about-img ">
-                    <img src="assets/img/gallery/about.png" alt="">
+                    <img src="{{assets('assets/img/gallery/zhimpa.jpg')}}" alt="">
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
@@ -38,7 +38,7 @@
                     <p class="mb-30 pera-bottom">{{$studio->description}}</p>
                 </div>
             </div>
-            
+
             <div class="row justify-content-center section-padding">
                 <iframe class="mobil-iframe" style="border-radius: 20px;" src="{{$studio->link_video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
             </div>
