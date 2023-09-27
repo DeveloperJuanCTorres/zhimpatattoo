@@ -48,7 +48,7 @@
             <div class="col-lg-6 col-md-11 pt-4">
                 <!-- about-img -->
                 <div class="about-img text-center">
-                    <img src="https://zhimpatattoosperu.com/storage/{{$posicion->artist->img}}" style="max-width: 400px;border-radius: 30px;" alt="">
+                    <img src="https://zhimpatattoosperu.com/storage/{{$posicion->artist->image}}" style="max-width: 400px;border-radius: 30px;" alt="">
                 </div>
             </div> 
         </div>
