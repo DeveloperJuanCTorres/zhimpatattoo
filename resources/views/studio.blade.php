@@ -50,7 +50,8 @@
             <div class="col-xl-7 col-lg-8 col-md-11 col-sm-11">
                 <div class="section-tittle text-center mb-90">
                     <h2>{{$studio->titulo}}</h2>
-                    <span>{{$studio->subtitulo}}</span>                    
+                    <span>{{$studio->subtitulo}}</span>    
+                    <span>{{$studio->description}}</span>                 
                 </div>
             </div>
         </div>
