@@ -233,14 +233,9 @@
         
 @endsection
 @push('css')
-<!-- <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
-<link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" /> -->
+<link rel="stylesheet" href="{{asset('assets/css/proyecto.css')}}?v=1993.3">
 @endpush
 @push('javascript')
-<!-- <script src="/node_modules/jquery/dist/jquery.js"></script>
-<script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
-<script src="/bower_components/jquery/dist/jquery.js"></script>
-<script src="/bower_components/owl.carousel/dist/owl.carousel.min.js"></script> -->
 <script>
 var myCarousel = document.querySelector('#myCarousel')
 var carousel = new bootstrap.Carousel(myCarousel, {
