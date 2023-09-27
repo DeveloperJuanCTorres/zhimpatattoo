@@ -109,6 +109,32 @@
 </div>
 <!-- Team End -->
 
+<div class="team-area pb-180 bg-black section-padding">
+    <div class="container">
+        <!-- Section Tittle -->
+        <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-8 col-md-11 col-sm-11">
+                <div class="section-tittle text-center mb-100">
+                    <h2>Tattos</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row dot-style justify-content-center p-4">           
+            @foreach($proyectos as $item)   
+            <a href="{{route('proyectoid',$item)}}" style="display: contents;">    
+                <div class="box">                
+                    <div class="image-wrap">                       
+                        <div class="image" style="background: url(https://zhimpatattoosperu.com/storage/{{$item->proyecto_img}});background-repeat: no-repeat;background-size: cover;"></div>                        
+                    </div>
+                    <div class="text">
+                        <span>{{$item->proyecto_name}} </span>
+                    </div>               
+                </div>    
+            </a>        
+            @endforeach
+          
+</div>
+
 <!--? Gallery Area Start -->
 <div class="gallery-area bg-black">
     <div class="container">

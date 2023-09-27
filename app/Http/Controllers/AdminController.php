@@ -16,8 +16,9 @@ class AdminController extends Controller
     {
         $home = Home::first();
         $artistas = Artist::all();
+        $proyectos = Project::all();
         $nav = 'Inicio';
-        return view('home',compact('nav','artistas','home'));
+        return view('home',compact('nav','artistas','home','proyectos'));
     }
 
     public function cotizar()
