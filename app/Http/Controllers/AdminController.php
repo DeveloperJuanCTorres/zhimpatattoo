@@ -15,7 +15,7 @@ class AdminController extends Controller
     public function home()
     {
         $home = Home::first();
-        $artistas = Artist::all();
+        $artistas = Artist::orderBy('id', 'DESC')->get();
         $proyectos = Project::all();
         $nav = 'Inicio';
         return view('home',compact('nav','artistas','home','proyectos'));
@@ -40,7 +40,7 @@ class AdminController extends Controller
     public function artistas()
     {
         $home = Home::first();
-        $artistas = Artist::all();
+        $artistas = Artist::orderBy('id', 'DESC')->get();
         $nav = 'Artistas';
         return view('artistas',compact('nav','home','artistas'));
     }
