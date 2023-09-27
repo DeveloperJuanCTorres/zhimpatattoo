@@ -19,7 +19,7 @@
 <!-- Hero End -->
 
 <!--? About Area Start -->
-<section class="about-area section-padding30 position-relative">
+<section class="about-area section-padding position-relative bg-black">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-11">
@@ -38,10 +38,6 @@
                     <p class="mb-30 pera-bottom">{{$studio->description}}</p>
                 </div>
             </div>
-
-            <div class="row justify-content-center section-padding">
-                <iframe class="mobil-iframe" style="border-radius: 20px;" src="{{$studio->link_video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
-            </div>
         </div>
     </div>
     <!-- About Shape -->
@@ -52,8 +48,8 @@
 <!-- About-2 Area End -->
 
 <!--? Services Area Start -->
-<!-- <section class="service-area section-padding bg-black">
-    <div class="container"> -->
+<section class="service-area section-padding bg-black">
+    <div class="container">
         <!-- <div class="row d-flex justify-content-center">
             <div class="col-xl-7 col-lg-8 col-md-11 col-sm-11">
                 <div class="section-tittle text-center mb-90">
@@ -97,10 +93,10 @@
                 </div>
             </div>                    
         </div> -->
-        <!-- <div class="row justify-content-center section-padding">
+        <div class="row justify-content-center section-padding">
             <iframe class="mobil-iframe" style="border-radius: 20px;" src="{{$studio->link_video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
-        </div> -->
-    <!-- </div>
-</section> -->
+        </div>
+    </div>
+</section>
 <!-- Services Area End -->
 @endsection
