@@ -115,7 +115,7 @@
         <div class="row justify-content-center">
             <div class="col-xl-8 col-lg-8 col-md-11 col-sm-11">
                 <div class="section-tittle text-center mb-100">
-                    <h2>Tattos</h2>
+                    <h2>Algunos proyectos de nuestro Tattoo</h2>
                 </div>
             </div>
         </div>
@@ -136,9 +136,9 @@
 </div>
 
 <!--? Gallery Area Start -->
-<div class="gallery-area bg-black">
+<!-- <div class="gallery-area bg-black">
     <div class="container">
-        <!-- Section Tittle -->
+       
         <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-7 col-md-9 col-sm-10">
                 <div class="section-tittle text-center mb-100">
@@ -186,8 +186,9 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- Gallery Area End -->
+
 <!-- Cut Details Start -->
 <div class="cut-details section-bg section-padding2 bg-black" data-background="assets/img/gallery/banner10.jpg">
     <div class="container">
