@@ -19,18 +19,18 @@
 <!-- Hero End -->
 
 <!--? About Area Start -->
-<section class="about-area section-padding position-relative bg-black">
+<!-- <section class="about-area section-padding position-relative bg-black">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-11">
-                <!-- about-img -->
+            
                 <div class="about-img ">
-                    <img src="{{asset('assets/img/gallery/zhimpa.jpg')}}" alt="">
+                    <img src="{{asset('assets/img/logo/logo-zhimpa.png')}}" alt="">
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
                 <div class="about-caption">
-                    <!-- Section Tittle -->
+                
                     <div class="section-tittle section-tittle3 mb-35">
                         <span>{{$studio->subtitulo}}</span>
                         <h2>{{$studio->titulo}}</h2>
@@ -40,25 +40,21 @@
             </div>
         </div>
     </div>
-    <!-- About Shape -->
-    <!-- <div class="about-shape">
-        <img src="assets/img/gallery/about-shape.png" alt="">
-    </div> -->
-</section>
+</section> -->
 <!-- About-2 Area End -->
 
 <!--? Services Area Start -->
 <section class="service-area section-padding bg-black">
     <div class="container">
-        <!-- <div class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center">
             <div class="col-xl-7 col-lg-8 col-md-11 col-sm-11">
                 <div class="section-tittle text-center mb-90">
-                    <span>{{$studio->subtitulo}}</span>
                     <h2>{{$studio->titulo}}</h2>
+                    <span>{{$studio->subtitulo}}</span>                    
                 </div>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="services-caption text-center mb-30">
                     <div class="service-icon">                        
