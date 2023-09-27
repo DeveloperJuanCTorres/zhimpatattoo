@@ -25,7 +25,7 @@
             <div class="col-lg-6 col-md-11">
                 <!-- about-img -->
                 <div class="about-img ">
-                    <img src="{{assets('assets/img/gallery/zhimpa.jpg')}}" alt="">
+                    <img src="{{asset('assets/img/gallery/zhimpa.jpg')}}" alt="">
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
