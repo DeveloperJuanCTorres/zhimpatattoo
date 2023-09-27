@@ -131,8 +131,9 @@
                     </div>               
                 </div>    
             </a>        
-            @endforeach
-          
+            @endforeach          
+        </div>
+    </div>
 </div>
 
 <!--? Gallery Area Start -->
