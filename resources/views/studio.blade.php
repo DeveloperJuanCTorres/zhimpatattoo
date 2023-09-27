@@ -17,11 +17,44 @@
     </div>
 </div>
 <!-- Hero End -->
+
+<!--? About Area Start -->
+<section class="about-area section-padding30 position-relative">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-11">
+                <!-- about-img -->
+                <div class="about-img ">
+                    <img src="assets/img/gallery/about.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="about-caption">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle section-tittle3 mb-35">
+                        <span>{{$studio->subtitulo}}</span>
+                        <h2>{{$studio->titulo}}</h2>
+                    </div>
+                    <p class="mb-30 pera-bottom">{{$studio->description}}</p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center section-padding">
+                <iframe class="mobil-iframe" style="border-radius: 20px;" src="{{$studio->link_video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+            </div>
+        </div>
+    </div>
+    <!-- About Shape -->
+    <!-- <div class="about-shape">
+        <img src="assets/img/gallery/about-shape.png" alt="">
+    </div> -->
+</section>
+<!-- About-2 Area End -->
+
 <!--? Services Area Start -->
 <section class="service-area section-padding bg-black">
     <div class="container">
-        <!-- Section Tittle -->
-        <div class="row d-flex justify-content-center">
+        <!-- <div class="row d-flex justify-content-center">
             <div class="col-xl-7 col-lg-8 col-md-11 col-sm-11">
                 <div class="section-tittle text-center mb-90">
                     <span>{{$studio->subtitulo}}</span>
@@ -29,7 +62,6 @@
                 </div>
             </div>
         </div>
-        <!-- Section caption -->
         <div class="row">
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="services-caption text-center mb-30">
@@ -64,10 +96,10 @@
                     </div>
                 </div>
             </div>                    
-        </div>
-        <div class="row justify-content-center section-padding">
+        </div> -->
+        <!-- <div class="row justify-content-center section-padding">
             <iframe class="mobil-iframe" style="border-radius: 20px;" src="{{$studio->link_video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
-        </div>
+        </div> -->
     </div>
 </section>
 <!-- Services Area End -->

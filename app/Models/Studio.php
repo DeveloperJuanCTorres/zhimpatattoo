@@ -17,7 +17,8 @@ class Studio extends Model
         'vision',
         'inspiracion',
         'link_video',
-        'imagen'
+        'imagen',
+        'description'
 
     ];
 }
