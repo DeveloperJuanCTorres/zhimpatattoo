@@ -31,6 +31,7 @@ Contamos con artistas con la experiencia necesaria para garantizar la seguridad 
         <meta name="keywords" content="zhimpa, tattos, tatuajes, piercing">
         <meta name="news_keywords" content="zhimpa, tattos, tatuajes, piercing">
         <meta name="author" content="Ing. Juan Carlos Torres del Castillo">
+        <meta name='robots' content='noindex, follow' />
         <!-- APPLE -->
         <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-icon-60x60.png">
