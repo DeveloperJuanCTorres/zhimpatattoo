@@ -45,7 +45,7 @@
                         <div class="col-xl-9 col-lg-8">
                             <div class="footer-copy-right">
                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Esta plantilla está hecha por <a href="#" target="_blank">Technology Cix</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Esta página está hecha por <a href="https://grupotyg.pe/" target="_blank">Grupo T&G</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                             </div>
                         </div>
